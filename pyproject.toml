@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "homework-2-web"
+version = "0.1.0"
+description = ""
+authors = ["flsx"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.5"
+dateparser = "^1.0.0"
+prompt_toolkit = "^3.0.21"
+folium = "^0.12.1"
+requests = "^2.26.0"
+colorama = "^0.4.4"
+dill = "^0.3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
